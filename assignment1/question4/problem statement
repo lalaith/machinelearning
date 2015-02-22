@@ -1,0 +1,23 @@
+Gaussian Discriminant Analysis
+
+(a) Implement Gaussian Discriminant Analysis using the closed form equations described in
+class. Assume that both the classes have the same co-variance matrix. Report the
+values of the means, and the co-variance matrix.
+
+(b) Plot the training data corresponding to the two coordinates of the input features, and
+you should use a divergerent symbol for each point plotted to indicate whether the label of the example.
+
+(c) Describe the equation of the boundary separating the two regions in terms of the parameters. 
+Recall that GDA results in a linear separator when the two classes have identical covariance matrix. 
+Along with the data points plotted in the part above, plot (on the same figure)decision boundary fit by GDA.
+
+(d) In general, GDA allows each of the target classes to have its own covariance matrix. This
+results (in general) in a quadratic boundary separating the two class regions. Implement GDA for
+the above problem in this more general setting. Report the values of the parameter estimates.
+
+(e) Describe the equation for the quadratic boundary separating the two regions in terms of
+the parameters. On the graph plotted earlier displaying the data points and the linear separating boundary, 
+also plot the quadratic boundary obtained in the previous step.
+
+(f ) Carefully analyse the linear as well as the quadratic boundaries obtained. Comment on
+your observations.

@@ -1,0 +1,11 @@
+Logistic Regression
+Binary Classification Problem
+
+(a)  Implement Newton's method for optimizing L(theta), and apply it to fit a logistic regression model to the data.
+What are the coefficients resulting from your fit? 
+
+(b) Plot the training data (your axes should be x1and x2 , corresponding to the two coordinates
+of the inputs, and you should use a divergerent symbol for each point plotted to indicate whether that
+example had label 1 or 0). Also plot on the same figure the decision boundary fit by logistic regression.
+(i.e., this should be a straight line showing the boundary separating the region where h(x) > 0:5 from
+where h(x) <= 0:5.)
