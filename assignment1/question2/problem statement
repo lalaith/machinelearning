@@ -1,0 +1,11 @@
+Locally Weighted Linear Regression
+
+(a) Implement (unweighted) linear regression on this dataset (using the normal equations), 
+and plot on the same figure the data and the straight line resulting from your fit.
+
+(b) Implement locally weighted linear regression on this dataset (using the weighted normal
+equations you derived above), and plot on the same figure the data and the curve resulting from your fit. 
+Use a bandwidth parameter tau = 0.8. 
+
+(c) Repeat (b) four times, with tau = 0.1; 0.3; 2 and 10. Which value of tau do you think works
+best? Comment on what happens to the fit when tau is too small or too large
