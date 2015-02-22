@@ -1,0 +1,19 @@
+Linear Regression
+Implementing Least squares Linear regression
+
+(a) Implement batch gradient descent method for optimizing J(θ). Choose an appropriate
+learning rate and the stopping criteria (as a function of the change in the value of J(θ)). You can
+initialize the parameters as θ = ~0 (the vector of all zeros). Do not forget to include the intercept
+term. Report your learning rate, stopping criteria and the final set of parameters obtained by your
+algorithm.
+(b) Plot the data on a two-dimensional graph and plot the hypothesis function learned by your
+algorithm in the previous part.
+(c) Draw a 3-dimensional mesh showing the error function (J(θ)) on z-axis and the parameters
+in the x − y plane. Display the error value using the current set of parameters at each iteration of
+the gradient descent. Include a time gap of 0.2 seconds in your display for each iteration so that the
+change in the function value can be observed by the human eye.
+(d) Repeat the part above for drawing the contours of the error function at each iteration of
+the gradient descent. Once again, chose a time gap of 0.2 seconds so that the change be perceived by
+the human eye.
+(e) Repeat the part above (i.e. draw the contours at each learning iteration) for the step size
+values of η = {0.1, 0.5, 0.9, 1.3, 2.1, 2.5}. What do you observe? Comment.
