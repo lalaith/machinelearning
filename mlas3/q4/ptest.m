@@ -13,6 +13,7 @@ end
 
 [Ut,St,Vt] = eigs(total,50);
 [U,S,V] = eigs(total,5);
+[U1,S1,V1] = svds(total,5);
 
 figure;
 for i=1:5
@@ -20,5 +21,5 @@ for i=1:5
     maxv = max(im(:));
     minv = min(im(:));
     ims = reshape(im,19,19);
-    subplot(5,1,i),imshow(ims,[minv,maxv]);   
+    subplot(5,1,i),imshow(ims,[minv,maxv]);
 end
